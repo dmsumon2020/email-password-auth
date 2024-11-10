@@ -28,7 +28,7 @@ const SignUp = () => {
 
     {
       if (password.length < 6) {
-        setErrorMessage("Password should be at least 6 characters long");
+        setErrorMessage("Password should be at least 6 characters long, okay?");
         return;
       }
     }
